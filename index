@@ -1,0 +1,777 @@
+<html lang="en">
+    <head>
+        <title>uncutrushes_home-page</title>
+
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <!-- mobile first responsive viewport meta tag -->        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="icon" href="../../../../favicon.ico">
+
+        <!-- ======= Search engine metadata ======= -->
+        <meta name="author" content="Stuart Fletcher"> 
+        <meta name="keywords" content="Jordan&rsquo;s Royal Road, Joseph Moses and Egypt&rsquo;s three kingdoms, documentary film-maker, Torah, Israel in Egypt, Exodus, Biblical history">
+        <meta name="description" content="Website of graphic designer and documentary filmmaker Stuart Fletcher containing additional footage and information acquired during production of his films and acknowledgements">
+
+        <!-- Bootstrap CSS stylesheet link -->        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="">
+
+        <style>
+            div.outer {padding: 0px 30px;}
+
+            /* 
+            Main menu header =====================================================
+            Header links ranged right.
+
+            Container holding the image and the text */
+            div.homepage-container {
+                position: relative;
+                max-width: 1920px;
+                margin: auto;
+            }
+
+            /* div possitioning the nav bar menu over the image and to the right of screen. */
+            /* +++++ Menu styles ================================================================================================================================================================================================== +++++ */
+
+            .menu-locate {position: absolute;
+                          top: 20px;
+                          right: 20px;
+            }
+
+            /* Unordered list style type for Header links */
+            ul.title-xs-wide {list-style-type: none;}
+
+            /* Change the link colour on hover */
+            a.nav-link {
+                display: block;
+                padding: 10px;
+
+            }
+            .dropdown-menu {
+                background: rgba(255,255,255,0.5);                              
+            }
+            a.nav-link:hover {
+                background: rgba(255,255,255,0.8);
+                text-decoration: underline;
+                opacity: 1.0;
+                color: rgb(0,0,150);
+                text-decoration: underline;
+            }
+            a.dropdown-item:hover {
+                text-decoration: underline;
+                color: rgb(0,0,150);
+                background: rgba(255,255,255,0.8);
+            }
+
+            /* +++++ ================================================================================================================================================================================================== +++++ */
+
+            div.page-container{
+                max-width: 1920px;
+                margin: auto
+            }
+
+            /* ======= Font styles, Main body ======= */
+            h1 {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.8em;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+                margin: 20px 0px 30px 0px;
+                border-style: solid;
+                border-width: 2px 0px 2px 0px;
+                border-color: lightgray;
+
+            }
+            h2 {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.4em;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+                margin: 20px 0px 30px 0px;
+                border-style: solid;
+                border-width: 2px 0px 2px 0px;
+                border-color: lightgray;
+            }
+            h3 {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 7.0em;
+                text-align: center;
+                color: white;
+                letter-spacing: 50px;
+                padding: 10px 0px 10px 0px;
+                margin: 20px 0px 30px 0px;
+                border-style: solid;
+                border-width: 0px 0px 0px 0px;
+                border-color: lightgray;
+
+            }
+            h4 {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.4em;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+                margin: 20px 0px 30px 0px;
+                border-style: solid;
+                border-width: 2px 0px 2px 0px;
+                border-color: lightgray;
+            }
+
+            p {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.3em;
+            }
+            q {
+                font-family: "Times-New-Roman", serif;
+                font-style: italic;
+                font-weight: normal;
+                font-size: 1.2em;
+                padding: 10px 0px 10px 10px;
+            }
+
+            /* Media Queries ====================================================
+               Extra small devices (portrait phones, less than 576px)
+            // No media query since this is the default in Bootstrap */
+
+            /* Small devices (landscape phones, 576px and up) */
+            @media (min-width: 576px) { 
+                .body-text {position: relative;
+                            top: 0px;
+                            padding: 0px 0px;} 
+            }
+
+            /*/ Medium devices (tablets, 768px and up) */
+            @media (min-width: 768px) { 
+                .body-text {position: relative;
+                        top: -33px;
+                        padding: 0px 50px;} 
+            }
+
+            /* Large devices (desktops, 992px and up) */
+            @media (min-width: 992px) {
+                .body-text {position: relative;
+                        top: -50px;
+                        padding: 0px 75px;}
+            }
+
+            /* Extra large devices (large desktops, 1200px and up) */
+            @media (min-width: 1200px) {
+                .body-text {position: relative;
+                        top: -100px;
+                        padding: 0px 150px;}
+            }
+
+
+
+            /* Portrait image (of stuart fletcher) style */
+            img.portrait {display: block;
+                          border-radius: 50%;
+                          max-width:150px;
+                          height:auto;
+                          padding: 10px 0px 10px 0px;
+                          margin:auto;
+
+
+            }
+            /* flex container =================================================== */
+
+            .flex-container {
+                display: -webkit-flex;/* Safari 6.1+ */
+                display: flex;  
+                -webkit-flex-flow: row wrap;/* Safari 6.1+ */
+                flex-flow: row wrap;/* The flex-flow property is a shorthand for the flex-direction for row (across lft/rt) or column (up/down) and the flex-wrap properties wrap or nowrap. */
+                align-content: center;
+                font-weight: normal;
+                text-align: center;
+            }
+
+            .flex-container > * {
+                padding: 30px;
+                flex: 1 100%; /* Tells all items to be 100% width */
+            }
+
+            .main {
+                text-align: left;
+                background: white;
+            }
+            .aside1 {background: whitesmoke;}
+            .aside2 {background: whitesmoke;}
+            .aside3 {background: #EAE4EF;}
+            .aside4 {background: #EAE4EF;}
+
+            /* source order for mobile-first */
+            @media all and (min-width: 768px) {
+                .aside { flex: 1; }
+                .main    { flex: 3; }/* main is 3 time bigger than aside */
+                .aside1 { order: 1; } 
+                .main    { order: 2; }
+                .aside2 { order: 3; }
+                .aside3 { order: 1; } 
+                .main    { order: 2; }
+                .aside4 { order: 3; }
+            }
+
+            /* flex container end */
+
+            /* code to allow video from vimeo to scale with the viewing window */
+            .video-responsive{
+                overflow:hidden;
+                padding-bottom:56.25%;
+                position:relative;
+                height:0;
+            }
+            .video-responsive iframe{
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                position:absolute;
+            }
+            .neptune-left {
+                text-align: left;
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            /* +++++ Footer elements ================================================================================================================================================================================================== +++++ */
+
+            p.pfooter {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.2em;
+                color: rgb(0,0,150);
+                padding: 5px 30px 0px 30px;
+
+            }
+            div.footerbgcol{
+                background-color: rgba(255,255,205,1.0);
+                background-position: center bottom;
+                margin: auto;
+            }
+            h2.h2footer {
+                font-family: "Cormorant Garamond", serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.2em;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+                margin: 0px 0px 0px 0px;
+                border-style: solid;
+                border-width: 2px 0px 2px 0px;
+                border-color: gray;
+            }
+            p.one {
+                font-family: "Gill", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.0em;
+                padding: 5px 30px 0px 30px;
+
+            }
+
+            /*  a href navigation text link size & colour change  */
+            a.footer-link:link {color:rgb(100,100,255);}
+            a.footer-link:visited {color:rgb(100,100,255);}
+            a.footer-link:hover {text-decoration: underline;
+                                 color: rgb(0,0,150);
+            }
+
+        </style>        
+    </head>
+    <body>
+        <div class="outer">
+            <div class="wrap">
+                <header>
+                    <div class='homepage-container'> <!-- container holding the image and text -->
+
+                        <img src="img_folder/uncut_homepage2.jpg" alt="homepageimage" style='width:100%'/>
+
+                        <!-- Navigation Bar -->
+
+                        <div class="menu-locate">
+                            <!-- nav-bar colour style -->
+                            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(255,255,255,0.7);">
+
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cv_stuartfletcher.html">CV</a>
+                                        </li>
+                                        <!-- Showcase -->                            
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Showcase
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item" href="index.html#index1">The Quiet American Gardener</a>
+                                                <a class="dropdown-item" href="index.html#index4">Neptune&rsquo;s Future</a>
+                                                <a class="dropdown-item" href="index.html#index3">The Disappearing Ice</a>
+                                            </div>
+                                        </li>
+                                        <!-- Jordan's Royal Road Drop down -->
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Jordan&rsquo;s Royal Road
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item" href="index.html#index5">Trailer</a>
+                                                <a class="dropdown-item" href="jrr_overview.html">Additional Insights</a>
+                                                <a class="dropdown-item" href="jrr_bibliography.html">Credits &AMP; Bibliography</a>
+                                            </div>
+                                        </li>
+                                        <!-- Joseph, Moses & Egypt's Three Kingdoms Drop down -->                            
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Joseph, Moses &AMP; Egypt&rsquo;s Three Kingdoms
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item" href="index.html#index2">Trailer</a>
+                                                <a class="dropdown-item" href="p1-1_ancient_voices.html">Part One: Ancient Voices</a>
+                                                <a class="dropdown-item" href="p2-1_egypts_golden_age.html">Part Two: Egypt&rsquo;s Golden Age</a>
+                                                <a class="dropdown-item" href="p3-1_the_great_migration.html">Part Three: The Great Migration</a>
+                                                <a class="dropdown-item" href="jme3k_bibliography.html">Bibliography</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div> 
+
+                </header>
+                <section class="intro">
+
+                </section>
+            </div>   
+        </div>    
+
+        <!-- Main text & image block container 
+                =========================================================================================================
+        -->
+
+
+        <!-- Main text & image block container -->            
+        <div class="page-container">
+            <div class="outer">
+                <div class="wrap">
+                    <header>
+                        <div class='homepage-container'> <!-- container holding the text -->
+
+                            <div class="body-text">
+                                <div class="firstcol col-sm-12">
+                                    <h3></h3>
+                                    <img class="portrait" src="img_folder/stuart_fletcher.png" alt="Stuart Fletcher"/> <!-- Portait Image -->
+
+                                    <h1>Welcome</h1>
+                                    <p> This is the website of graphic designer and documentary filmmaker <a href="cv_stuartfletcher.html" target="blank">Stuart Fletcher</a>. It contains additional footage and information acquired during film production, some of which was omitted or shortened due to the limitation of space or to avoid disrupting the natural flow of the story. This site also includes a bibliography of the papers, books and other material used during research acknowledging their authors. To all who have contributed to the making of these films, I thank you.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+            <!-- Start of Flex Container 1
+            ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+            -->
+
+            <div class="flex-container">
+
+                <aside class="aside aside1">
+                    <h2 id="index1">
+                        The Quiet American Gardener  
+                    </h2>
+                    <div class="video-responsive"><!-- Video trailer -->
+                        <iframe src="https://player.vimeo.com/video/218796214" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <p>
+                        <br>Lawrence Johnston had an artist’s eye, an architect’s sense of space, and a consuming passion for plants. But while the individual rooms within the gardens he created made a satisfying whole, for the visitor, when viewed holistically, they can be a bewildering and confusing experience.
+                        <br>
+                        <br>This two-part documentary series on Major Lawrence Johnston, the creator of Hidcote Manor Garden in Gloucestershire, England and Jardin Serre de la Madone in France, takes us through each garden as Lawrence Johnston had originally developed it, highlighting the arrangements of space which were filled with beautiful plants and foliage.
+                    </p>
+                    <span class="text-muted">
+                        <h4>
+                            Available on DVD from the National Trust
+                        </h4>
+                    </span>
+                </aside>
+
+                <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                <article class="main">
+                    <h2 id="index2">
+                        Joseph, Moses and Egypt&rsquo;s Three Kingdoms
+                    </h2>
+
+                    <div class="video-responsive"><!-- Video trailer -->
+                        <iframe src="https://player.vimeo.com/video/214823287" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                    <h4>
+                        A three-part adventure through ancient Egypt, Canaan and the Old Testament.
+                    </h4>                        
+                    <p>
+                        In a detailed, comprehensive and visually stunning three-part adventure, three internationally respected scholars, Khaled Osman, Dr Leen Ritmeyer and Dr Troy Sagrillo, draw on an unprecedented range of historical and archaeological data from the ancient Near East and use it to paint a vibrant picture of the social and economic interaction between Egypt and the southern Levant (modern-day Israel, Jordan and Palestine) which underlies the biblical story of the Exodus. 
+                    </p>
+
+                    <h4>Insights into the historicity of the Hebrew Bible.</h4>
+                    <p>Click on the links below to reveal the director&rsquo;s commentary and additional items that were not included within the series.</p>
+
+                    <a href="p1-1_ancient_voices.html"><p>Part One: Ancient Voices</p></a>
+                    <a href="p2-1_egypts_golden_age.html"><p>Part Two: Egypt&rsquo;s Golden Age</p></a>
+                    <a href="p3-1_the_great_migration.html"><p>Part Three: The Great Migration</p></a>
+
+
+
+                    <!-- 
+                    VoD links
+                    Three rows, first row has the heading See...,
+                    second row, 4 columns with the logos and third row, 4 columns with text links.
+                    ==============================================================================================================
+                    -->
+
+                    <div class="row"> <!-- 5th row, muted text heading -->
+                        <div class="col-12">
+
+                            <span class="text-muted">
+                                <h4>
+                                    See Joseph, Moses and Egypt&rsquo;s Three Kingdoms on:
+                                </h4>
+                            </span>
+                        </div>
+                    </div> <!-- 5th row, end -->
+
+                    <!-- Logo links to VoD -->
+
+
+                    <div class="row"> <!-- 6th row -->
+                        <div class="col-sm-3">
+                            <!-- iTunes link (bttn) -->
+                            <a href="https://itunes.apple.com/us/tv-season/joseph-moses-and-egypts-three-kingdoms/id1169734522" target="_blank">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/itunes_blk_on_white.png" alt="iTunes Logo"/></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- Amazon link (logo/bttn) -->
+                            <a href="https://www.amazon.com/Joseph-Moses-Egypts-Three-Kingdoms/dp/B01MQDDM2G" target="_blank">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/amazon_on_white.png" alt="Amazon Logo"/></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- Google Play link (logo) -->
+                            <a href="https://play.google.com/store/tv/show?id=Iq4Bk3N8bE0&cdid=tvseason-wIsViud7VzT8DlxC3-8h7g&gdid=tvepisode-eSFz5W72WCU&hl=en_GB" target="_blank">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/google_blk_on_white.png" alt="Google Play Logo"/></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- Vimeo link (logo) -->
+                            <a href="https://vimeo.com/ondemand/israelinancientegypt" target="_blank">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/vimeo_on_white.png" alt="Vimeo on Demand Logo"/></a>
+                        </div>
+                    </div> <!-- 6th row, end -->
+
+
+                    <style>
+                        div.row7{
+                            padding-bottom: 30px;                            
+                        }
+                        div.logo1{
+                            padding-top: 5px;
+                            text-align: center;
+
+                        }
+                    </style>
+
+                    <div class="row7 row"> <!-- 7th row -->
+                        <div class="logo1 col-sm-3"> <!-- iTunes link (bttn.) -->
+                            <a class="two" href='https://itunes.apple.com/us/tv-season/joseph-moses-and-egypts-three-kingdoms/id1169734522' target="_blank">Purchase through iTunes</a>
+                        </div>
+
+                        <div class="logo1 col-sm-3"> <!-- Amazon link (bttn.) -->
+                            <a class="two" href='https://www.amazon.com/Joseph-Moses-Egypts-Three-Kingdoms/dp/B01MQDDM2G' target="_blank">Purchase through Amazon</a>
+                        </div>
+
+                        <div class="logo1 col-sm-3"> <!-- Google Play link (bttn.) -->
+                            <a class="two" href='https://play.google.com/store/tv/show?id=Iq4Bk3N8bE0&cdid=tvseason-wIsViud7VzT8DlxC3-8h7g&gdid=tvepisode-eSFz5W72WCU&hl=en_GB' target="_blank">Purchase through Google Play</a>
+                        </div>
+
+                        <div class="logo1 col-sm-3"> <!-- Vimeo link (bttn.) -->
+                            <a class="two" href='https://vimeo.com/ondemand/israelinancientegypt' target="_blank">Purchase through Vimeo</a>
+                        </div>
+
+                    </div> <!-- 7th row, end -->
+
+                    <!-- 
+                    VoD links end
+                    -->                    
+                </article>
+
+                <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                <aside class="aside aside2">
+                    <aside class="aside aside1">
+                        <h2 id="index3">
+                            A Glimpse of Greenland: The Disappearing Ice  
+                        </h2>
+                        <div class="video-responsive"><!-- Video trailer -->
+                            <iframe src="https://player.vimeo.com/video/218799891" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <p>
+                            <br>GLIMPSE is a 5-year glaciology research project based at the Department of Geography, Swansea University in South Wales (U.K.). Through the use of international collaborative research, fieldwork, remote sensing and modelling techniques, its objectives are to gain an understanding of how Greenland’s melting ice sheet is impacting on the Earth. Dr Lawrence Dyke presents the project&rsquo;s findings.
+                        </p>
+
+                    </aside> 
+            </div><!-- End of flex container 1-->
+
+
+            <!-- Start of flex container 2
+            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+            --> 
+
+
+            <div class="flex-container">
+                <aside class="aside aside3">
+                    <h2 id="index4">
+                        Neptune&rsquo;s Future  
+                    </h2>
+                    <div class="video-responsive"><!-- Video trailer -->
+                        <iframe src="https://player.vimeo.com/video/215995250" width="640" height="352" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <h4>National Trust: Neptune Coastline Campaign.<br>Caring for Britain&rsquo;s coastline for future generations.</h4>
+                    <p>
+                        <br>With more than 700 miles of Britain’s shoreline coming under the care of the National Trust, this 60 minute documentary, Neptune&rsquo;s Future, with Kate Humble, was commissioned by the Trust as part of its national Neptune Coastline Campaign. The aims and objectives of the campaign were: 
+                    </p>
+                    <ul class='neptune-left'><li>
+                            To celebrate the beauty and diversity of Britain&rsquo;s coastline heritage.    
+                        </li>
+                        <li>
+                            To raise awareness of the challenges global warming and the resulting rise in sea levels will bring, through an understanding of the past and a celebration of the present.        
+                        </li>
+                        <li>
+                            To inform the public of the National Trust&rsquo;s strategic planning for the future and;      
+                        </li>
+                        <li>
+                            To raise funds for the National Trust&rsquo;s continuing commitment to Britain’s coastline.     
+                        </li>
+                    </ul>
+                    <span class="text-muted">
+                        <h4>
+                            Available on DVD from the National Trust
+                        </h4>
+                    </span>
+                </aside>
+
+                <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                <article class="main">
+                    <h2 id="index5">
+                        Jordan&rsquo;s Royal Road
+                    </h2>
+
+                    <div class="video-responsive"><!-- Video trailer -->
+                        <iframe src="https://player.vimeo.com/video/214819769" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                    <h4>A scenic journey through historic Jordan, along the King’s Highway.</h4>
+
+                    <p>Starting in southern Syria and extending to the Red Sea, the King’s Highway winds south, following the mountain ridge east of the Dead Sea, through Jordan’s most spectacular scenery and a wealth of historical sites and locations familiar to us from the pages of the Bible.
+                        <br>
+                        <br>In the company of archaeologist Sue Rollins (co-writer of the Blue Guide: Jordan) and biblical historian John Henson (author of Good as New), we explore the remains of these cities and retell the stories of the people who lived and worked within them.
+
+                    </p>
+                    <h4>Additional insights into historic Jordan.</h4>
+                    <p>Click on the link below to reveal additional items which were not included within the programme.</p>
+
+                    <a href="jrr_overview.html"><p>Jordan&rsquo;s Royal Road</p></a>
+                    <!-- 
+                    VoD links
+                    Three rows, first row has the heading See...,
+                    second row, 4 columns with the logos and third row, 4 columns with text links.
+                    ==============================================================================================================
+                    -->
+
+                    <div class="row"> <!-- 5th row, muted text heading -->
+                        <div class="col-12">
+
+                            <span class="text-muted">
+                                <h4>
+                                    See Jordan&rsquo;s Royal Road on:
+                                </h4>
+                            </span>
+                        </div>
+                    </div> <!-- 5th row, end -->
+
+                    <!-- Logo links to VoD -->
+
+
+                    <div class="row"> <!-- 6th row -->
+                        <div class="col-sm-3">
+                            <!-- Vimeo link (logo) -->
+                            <a href="https://vimeo.com/ondemand/jordansroyalroad/214819769" target="_blank">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/vimeo_on_white.png" alt="Vimeo on Demand Logo"/></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- iTunes link (bttn) 
+                            <a href="https://itunes.apple.com/us/tv-season/joseph-moses-and-egypts-three-kingdoms/id1169734522">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/itunes_blk_on_white.png" alt="iTunes Logo"/></a> -->
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- Amazon link (logo/bttn) 
+                            <a href="https://www.amazon.com/Joseph-Moses-Egypts-Three-Kingdoms/dp/B01MQDDM2G">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/amazon_on_white.png" alt="Amazon Logo"/></a> -->
+                        </div>
+                        <div class="col-sm-3">
+                            <!-- Google Play link (logo) 
+                            <a href="https://play.google.com/store/tv/show?id=Iq4Bk3N8bE0&cdid=tvseason-wIsViud7VzT8DlxC3-8h7g&gdid=tvepisode-eSFz5W72WCU&hl=en_GB">
+                                <img class="img-responsive" width="100%" height="auto" src="img_folder/google_blk_on_white.png" alt="Google Play Logo"/></a> -->
+                        </div>
+
+                    </div> <!-- 6th row, end -->
+
+
+                    <style>
+                        div.row7{
+                            padding-bottom: 30px;                            
+                        }
+                        div.logo1{
+                            padding-top: 5px;
+                            text-align: center;
+
+                        }
+                    </style>
+
+                    <div class="row7 row"> <!-- 7th row -->
+                        <div class="logo1 col-sm-3"> <!-- Vimeo link (bttn.) -->
+                            <a class="two" href='https://vimeo.com/ondemand/jordansroyalroad/214819769' target="_blank">Purchase through Vimeo</a>
+                        </div>
+
+                        <div class="logo1 col-sm-3"> <!-- iTunes link (bttn.) 
+                            <a class="two" href='https://itunes.apple.com/us/tv-season/joseph-moses-and-egypts-three-kingdoms/id1169734522'>Purchase through iTunes</a> -->
+                        </div>
+
+                        <div class="logo1 col-sm-3"> <!-- Amazon link (bttn.) 
+                            <a class="two" href='https://www.amazon.com/Joseph-Moses-Egypts-Three-Kingdoms/dp/B01MQDDM2G'>Purchase through Amazon</a> -->
+                        </div>
+
+                        <div class="logo1 col-sm-3"> <!-- Google Play link (bttn.) 
+                            <a class="two" href='https://play.google.com/store/tv/show?id=Iq4Bk3N8bE0&cdid=tvseason-wIsViud7VzT8DlxC3-8h7g&gdid=tvepisode-eSFz5W72WCU&hl=en_GB'>Purchase through Google Play</a> -->
+                        </div>
+
+                    </div> <!-- 7th row, end -->
+
+                    <!-- 
+                    VoD links end
+                    -->                    
+                </article>
+
+                <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+                <aside class="aside aside4">
+                    <h2 id="index6">
+                        The search for Solomon  
+                    </h2>
+                    <div class="video-responsive"><!-- Video trailer -->
+                        <iframe src="https://player.vimeo.com/video/268262560" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <h4>
+                        The Water Gate and Projecting Tower of the Solomonic wall at the Ophel, Jerusalem.  
+                    </h4>
+                    <p>
+                        <br>Archaeologists from The Hebrew University of Jerusalem have revealed an ancient path they believe to date back to the time of King Solomon, along with other structures which include a gateway and the foundations to a building.<br>
+                        <br>“This is the first time a building has been found that matches descriptions of the building carried out by King Solomon in Jerusalem.” - <a href="http://www.israelnationalnews.com/News/News.aspx/136130"> Dr Eilat Mazar.</a><br>
+                        <br>But do these findings come from the time of King Solomon or a later period?
+                    </p>
+                </aside> 
+
+            </div><!-- End of flex container2-->
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        </div> <!-- End of page container-->
+
+
+
+        <!-- 
+        ========================================================================================================
+        -->
+
+        <footer class="footer"> <!-- Footer container -->
+            <div class="container-fluid">
+
+                <div>    
+                    <h2 class="h2footer">
+                        Links and licensing:
+                    </h2>
+                </div>
+                <div class="footerbgcol">
+                    <div class="row">                    
+                        <div class="col-sm-3">
+                            <p class="pfooter">About this site:</p>
+                            <ul style="list-style-type:none">
+                                <li>    
+                                    <a class="footer-link" href="index.html" target="_blank"><p class="one">Site map</p></a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="uncut_contact-page.html" target="_blank"><p class="one">Contact</p></a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="uncut_team.html" target="_blank"><p class="one">The team</p></a>
+                                </li>                            
+                            </ul>
+                            <br>
+
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="pfooter">uncutrushes on:</p>
+                            <ul style="list-style-type:none">
+                                <li>    
+                                    <a class="footer-link" href="https://vimeo.com/ssfletcher" target="_blank"><p class="one">Vimeo</p></a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="https://www.facebook.com/uncutrushes/" target="_blank"><p class="one">Facebook</p></a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="https://www.linkedin.com/in/stuart-fletcher-uncutrushes" target="_blank"><p class="one">Linkedin</p></a>
+                                </li>                            
+                            </ul>
+                            <br>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="pfooter"><a href="terms.html" target="_blank"> Image and text</a> content on this site is licensed under a Creative Commons Attribution 4.0 International license CC-BY-SA.</p>
+
+                            <br><p class="pfooter">Video content Copyright &copy; Stuart Fletcher MMXVII All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer> <!-- Footer container end -->
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>
